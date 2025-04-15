@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "PokePaws",
+    "slug": "PokePaws",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/koala.png",             
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "jsEngine": "hermes",
+    "android": {
+      "package": "com.rudra9163.weatherapp"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/koala.png"          
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/koala.png",     
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "86ab5a6f-ced3-4451-af0e-262ca140fda3"
+      }
+    },
+    "owner": "rudra9163"
+  }
+}
